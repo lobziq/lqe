@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="lobziq quality engine" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/lobziq quality engine" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/lobziq quality engine" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-std=c++11" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="../../tools/glew-1.10.0-win32/glew-1.10.0/include" />
+			<Add directory="../../tools/glfw-3.0.4.bin.WIN32/glfw-3.0.4.bin.WIN32/include" />
+			<Add directory="../../tools/FreeImage3154Win32/FreeImage/Dist" />
+			<Add directory="../../tools/glm-0.9.4.5/glm" />
+			<Add directory="include" />
+			<Add directory="../../tools/assimp--3.0.1270-sdk/include" />
+			<Add directory="../../tools/ft253/freetype-2.5.3/include" />
+		</Compiler>
+		<Linker>
+			<Add library="..\..\tools\glew-1.10.0-win32\glew-1.10.0\lib\Release\Win32\glew32s.lib" />
+			<Add library="..\..\tools\glfw-3.0.4.bin.WIN32\glfw-3.0.4.bin.WIN32\lib-mingw\glfw3dll.a" />
+			<Add library="..\..\tools\glfw-3.0.4.bin.WIN32\glfw-3.0.4.bin.WIN32\lib-mingw\libglfw3.a" />
+			<Add library="C:\MinGW\lib\libopengl32.a" />
+			<Add library="..\..\tools\FreeImage3154Win32\FreeImage\Dist\FreeImage.lib" />
+			<Add library="..\..\tools\assimp-myBuild\code\libassimp.dll.a" />
+			<Add library="..\..\tools\ft253\freetype-2.5.3\objs\libfreetype.a" />
+			<Add directory="../../tools/glew-1.10.0-win32/glew-1.10.0/lib/Release/Win32" />
+			<Add directory="../../tools/glew-1.10.0-win32/glew-1.10.0/bin/Release/Win32" />
+			<Add directory="../../tools/glfw-3.0.4.bin.WIN32/glfw-3.0.4.bin.WIN32/lib-mingw" />
+			<Add directory="../../tools/FreeImage3154Win32/FreeImage/Dist" />
+			<Add directory="../../tools/assimp-myBuild/code" />
+		</Linker>
+		<Unit filename="include/app.h" />
+		<Unit filename="include/camera.h" />
+		<Unit filename="include/leaf.h" />
+		<Unit filename="include/model.h" />
+		<Unit filename="include/oglObject.h" />
+		<Unit filename="include/oglObject2d.h" />
+		<Unit filename="include/oglObject3d.h" />
+		<Unit filename="include/particle.h" />
+		<Unit filename="include/particleDrawer.h" />
+		<Unit filename="include/plane.h" />
+		<Unit filename="include/pyramid.h" />
+		<Unit filename="include/rectangle.h" />
+		<Unit filename="include/scene.h" />
+		<Unit filename="include/shaderLoader.h" />
+		<Unit filename="include/testScene.h" />
+		<Unit filename="include/text.h" />
+		<Unit filename="include/texture.h" />
+		<Unit filename="include/tree.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="shaders/object2d.frag" />
+		<Unit filename="shaders/object2d.vert" />
+		<Unit filename="shaders/object3d.frag" />
+		<Unit filename="shaders/object3d.vert" />
+		<Unit filename="shaders/particle2d.frag" />
+		<Unit filename="shaders/particle2d.vert" />
+		<Unit filename="src/app.cpp" />
+		<Unit filename="src/camera.cpp" />
+		<Unit filename="src/leaf.cpp" />
+		<Unit filename="src/model.cpp" />
+		<Unit filename="src/oglObject.cpp" />
+		<Unit filename="src/oglObject2d.cpp" />
+		<Unit filename="src/oglObject3d.cpp" />
+		<Unit filename="src/particle.cpp" />
+		<Unit filename="src/particleDrawer.cpp" />
+		<Unit filename="src/plane.cpp" />
+		<Unit filename="src/pyramid.cpp" />
+		<Unit filename="src/rectangle.cpp" />
+		<Unit filename="src/scene.cpp" />
+		<Unit filename="src/shaderLoader.cpp" />
+		<Unit filename="src/testScene.cpp" />
+		<Unit filename="src/text.cpp" />
+		<Unit filename="src/texture.cpp" />
+		<Unit filename="src/tree.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

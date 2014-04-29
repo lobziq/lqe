@@ -1,0 +1,1266 @@
+# depslib dependency file v1.0
+1398715736 source:c:\users\lobziq\google Диск\opengl\projects\lobziq quality engine\src\app.cpp
+	<GL/glew.h>
+	<iostream>
+	<sstream>
+	<GLFW/glfw3.h>
+	"app.h"
+	"testScene.h"
+	"testScene2.h"
+	"leaf.h"
+	"pyramid.h"
+	"rectangle.h"
+
+1374462800 c:\users\lobziq\google Диск\opengl\tools\glew-1.10.0-win32\glew-1.10.0\include\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1397665912 c:\users\lobziq\google Диск\opengl\projects\lobziq quality engine\include\app.h
+	<GLFW/glfw3.h>
+	<iostream>
+	"scene.h"
+
+1388499274 c:\users\lobziq\google Диск\opengl\tools\glfw-3.0.4.bin.win32\glfw-3.0.4.bin.win32\include\glfw\glfw3.h
+	<stddef.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/glcorearb.h>
+	<GLES/gl.h>
+	<GLES2/gl2.h>
+	<GLES3/gl3.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1398036465 source:c:\users\lobziq\google Диск\opengl\projects\lobziq quality engine\main.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	"app.h"
+
+1398099480 source:c:\users\lobziq\google Диск\opengl\projects\lobziq quality engine\src\shaderloader.cpp
+	<GL/glew.h>
+	<iostream>
+	<fstream>
+	"shaderLoader.h"
+
+1394403049 c:\users\lobziq\google Диск\opengl\projects\lobziq quality engine\include\shaderloader.h
+	<GL/glew.h>
+	<iostream>
+
+1397670265 source:c:\users\lobziq\google Диск\opengl\projects\lobziq quality engine\src\rectangle.cpp
+	"rectangle.h"
+
+1397758512 c:\users\lobziq\google Диск\opengl\projects\lobziq quality engine\include\rectangle.h
+	<oglObject2d.h>
+
+1397670218 source:c:\users\lobziq\google Диск\opengl\projects\lobziq quality engine\src\model.cpp
+	"model.h"
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<assimp/Importer.hpp>
+	<assimp/scene.h>
+	<assimp/postprocess.h>
+
+1378418281 c:\users\lobziq\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\glm.hpp
+	"core/_fixes.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cstdio>
+	"core/setup.hpp"
+	"./core/_detail.hpp"
+	"./core/_vectorize.hpp"
+	"./core/type.hpp"
+	"./core/func_trigonometric.hpp"
+	"./core/func_exponential.hpp"
+	"./core/func_common.hpp"
+	"./core/func_packing.hpp"
+	"./core/func_geometric.hpp"
+	"./core/func_matrix.hpp"
+	"./core/func_vector_relational.hpp"
+	"./core/func_integer.hpp"
+	"./core/func_noise.hpp"
+	"./core/_swizzle.hpp"
+
+1378418287 c:\users\lobziq\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\_fixes.hpp
+	<cmath>
+
+1378418284 c:\users\lobziq\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\setup.hpp
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<smmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1378418287 c:\users\lobziq\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\_detail.hpp
+	"setup.hpp"
+	<cassert>
+	<cstdint>
+
+1378418287 c:\users\lobziq\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\_vectorize.hpp
+
+1378418284 c:\users\lobziq\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\type.hpp
+	"type_half.hpp"
+	"type_float.hpp"
+	"type_int.hpp"
+	"type_gentype.hpp"
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat2x2.hpp"
+	"type_mat2x3.hpp"
+	"type_mat2x4.hpp"
+	"type_mat3x2.hpp"
+	"type_mat3x3.hpp"
+	"type_mat3x4.hpp"
+	"type_mat4x2.hpp"
+	"type_mat4x3.hpp"
+	"type_mat4x4.hpp"
+
+1378418285 c:\users\lobziq\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\type_half.hpp
+	<cstdlib>
+	"type_half.inl"
+
+1378418285 c:\users\lobziq\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\type_half.inl
+	"_detail.hpp"
+
+1378418284 c:\users\lobziq\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\type_float.hpp
+	"type_half.hpp"
+	"setup.hpp"
+
+1378418285 c:\users\lobziq\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\type_int.hpp
+	"setup.hpp"
+	"_detail.hpp"
+
+1378418284 c:\users\lobziq\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\type_gentype.hpp
+	"type_size.hpp"
+
+1378418286 c:\users\lobziq\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\type_size.hpp
+	<cstdlib>
+
+1378418286 c:\users\lobziq\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\type_vec1.hpp
+	"type_vec.hpp"
+	"type_float.hpp"
+	"type_int.hpp"
+	"type_size.hpp"
+	"_swizzle.hpp"
+	"type_vec1.inl"
+
+1378418286 c:\users\lobziq\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\type_vec.hpp
+	"type_gentype.hpp"
+
+1378418287 c:\users\lobziq\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\_swizzle.hpp
+	"_swizzle_func.hpp"
+
+1378418287 c:\users\lobziq\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\_swizzle_func.hpp
+
+1378418286 c:\users\lobziq\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\type_vec1.inl
+
+1378418286 c:\users\lobziq\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\type_vec2.hpp
+	"type_vec.hpp"
+	"type_float.hpp"
+	"type_int.hpp"
+	"type_size.hpp"
+	"_swizzle.hpp"
+	"type_vec2.inl"
+
+1378418286 c:\users\lobziq\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\type_vec2.inl
+
+1378418286 c:\users\lobziq\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\type_vec3.hpp
+	"type_vec.hpp"
+	"type_float.hpp"
+	"type_int.hpp"
+	"type_size.hpp"
+	"_swizzle.hpp"
+	"type_vec3.inl"
+
+1378418287 c:\users\lobziq\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\type_vec3.inl
+
+1378418287 c:\users\lobziq\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\type_vec4.hpp
+	"type_vec.hpp"
+	"type_float.hpp"
+	"type_int.hpp"
+	"type_size.hpp"
+	"_swizzle.hpp"
+	"type_vec4.inl"
+
+1378418287 c:\users\lobziq\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\type_vec4.inl
+
+1378418285 c:\users\lobziq\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\type_mat2x2.hpp
+	"type_mat.hpp"
+	"type_mat2x2.inl"
+
+1378418285 c:\users\lobziq\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\type_mat.hpp
+	"type_gentype.hpp"
+
+1378418285 c:\users\lobziq\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\type_mat2x2.inl
+
+1378418285 c:\users\lobziq\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\type_mat2x3.hpp
+	"type_mat.hpp"
+	"type_mat2x3.inl"
+
+1378418285 c:\users\lobziq\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\type_mat2x3.inl
+
+1378418285 c:\users\lobziq\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\type_mat2x4.hpp
+	"type_mat.hpp"
+	"type_mat2x4.inl"
+
+1378418285 c:\users\lobziq\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\type_mat2x4.inl
+
+1378418285 c:\users\lobziq\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\type_mat3x2.hpp
+	"type_mat.hpp"
+	"type_mat3x2.inl"
+
+1378418285 c:\users\lobziq\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\type_mat3x2.inl
+
+1378418285 c:\users\lobziq\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\type_mat3x3.hpp
+	"type_mat.hpp"
+	"type_mat3x3.inl"
+
+1378418286 c:\users\lobziq\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\type_mat3x3.inl
+
+1378418286 c:\users\lobziq\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\type_mat3x4.hpp
+	"type_mat.hpp"
+	"type_mat3x4.inl"
+
+1378418286 c:\users\lobziq\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\type_mat3x4.inl
+
+1378418286 c:\users\lobziq\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\type_mat4x2.hpp
+	"type_mat.hpp"
+	"type_mat4x2.inl"
+
+1378418286 c:\users\lobziq\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\type_mat4x2.inl
+
+1378418286 c:\users\lobziq\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\type_mat4x3.hpp
+	"type_mat.hpp"
+	"type_mat4x3.inl"
+
+1378418286 c:\users\lobziq\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\type_mat4x3.inl
+
+1378418286 c:\users\lobziq\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\type_mat4x4.hpp
+	"type_mat.hpp"
+	"type_mat4x4.inl"
+
+1378418286 c:\users\lobziq\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\type_mat4x4.inl
+
+1378418283 c:\users\lobziq\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\func_trigonometric.hpp
+	"func_trigonometric.inl"
+
+1378418283 c:\users\lobziq\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\func_trigonometric.inl
+
+1378418282 c:\users\lobziq\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\func_exponential.hpp
+	"func_exponential.inl"
+
+1378418282 c:\users\lobziq\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\func_exponential.inl
+
+1378418281 c:\users\lobziq\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\func_common.hpp
+	"_fixes.hpp"
+	"func_common.inl"
+
+1378418281 c:\users\lobziq\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\func_common.inl
+
+1378418282 c:\users\lobziq\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\func_packing.hpp
+	"func_packing.inl"
+
+1378418282 c:\users\lobziq\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\func_packing.inl
+
+1378418282 c:\users\lobziq\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\func_geometric.hpp
+	"func_geometric.inl"
+
+1378418282 c:\users\lobziq\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\func_geometric.inl
+
+1378418282 c:\users\lobziq\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\func_matrix.hpp
+	"func_matrix.inl"
+
+1378418282 c:\users\lobziq\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\func_matrix.inl
+
+1378418283 c:\users\lobziq\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\func_vector_relational.hpp
+	"_detail.hpp"
+	"func_vector_relational.inl"
+
+1378418283 c:\users\lobziq\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\func_vector_relational.inl
+
+1378418282 c:\users\lobziq\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\func_integer.hpp
+	"func_integer.inl"
+
+1378418282 c:\users\lobziq\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\func_integer.inl
+	<intrin.h>
+
+1378418282 c:\users\lobziq\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\func_noise.hpp
+	"func_noise.inl"
+
+1378418282 c:\users\lobziq\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\func_noise.inl
+
+1378418288 c:\users\lobziq\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\gtc\matrix_transform.hpp
+	"../glm.hpp"
+	"matrix_transform.inl"
+
+1378418288 c:\users\lobziq\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\gtc\matrix_transform.inl
+
+1397160130 c:\users\lobziq\google Диск\opengl\projects\lobziq quality engine\include\model.h
+	<oglObject3d.h>
+
+1378418290 c:\users\lobziq\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\gtc\type_ptr.hpp
+	"../glm.hpp"
+	"../gtc/half_float.hpp"
+	"../gtc/quaternion.hpp"
+	<cstring>
+	"type_ptr.inl"
+
+1378418287 c:\users\lobziq\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\gtc\half_float.hpp
+	"../glm.hpp"
+	"half_float.inl"
+
+1378418287 c:\users\lobziq\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\gtc\half_float.inl
+
+1378418288 c:\users\lobziq\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\gtc\quaternion.hpp
+	"../glm.hpp"
+	"../gtc/half_float.hpp"
+	"../gtc/constants.hpp"
+	"quaternion.inl"
+
+1378418287 c:\users\lobziq\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\gtc\constants.hpp
+	"../glm.hpp"
+	"../gtc/half_float.hpp"
+	"constants.inl"
+
+1378418287 c:\users\lobziq\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\gtc\constants.inl
+
+1378418288 c:\users\lobziq\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\gtc\quaternion.inl
+	<limits>
+
+1378418290 c:\users\lobziq\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\gtc\type_ptr.inl
+
+1397431909 c:\users\lobziq\google Диск\opengl\projects\lobziq quality engine\include\texture.h
+	<GL/glew.h>
+	<FreeImage.h>
+	<iostream>
+
+1398709674 source:c:\users\lobziq\google Диск\opengl\projects\lobziq quality engine\src\texture.cpp
+	"texture.h"
+	<iostream>
+	<FreeImage.h>
+
+1348427794 c:\users\lobziq\google Диск\opengl\tools\freeimage3154win32\freeimage\dist\freeimage.h
+	<wchar.h>
+	<inttypes.h>
+
+1398036465 source:d:\google Диск\opengl\projects\lobziq quality engine\main.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	"app.h"
+
+1374462800 d:\google Диск\opengl\tools\glew-1.10.0-win32\glew-1.10.0\include\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1388499274 d:\google Диск\opengl\tools\glfw-3.0.4.bin.win32\glfw-3.0.4.bin.win32\include\glfw\glfw3.h
+	<stddef.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/glcorearb.h>
+	<GLES/gl.h>
+	<GLES2/gl2.h>
+	<GLES3/gl3.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1397665912 d:\google Диск\opengl\projects\lobziq quality engine\include\app.h
+	<GLFW/glfw3.h>
+	<iostream>
+	"scene.h"
+
+1398374236 source:d:\google Диск\opengl\projects\lobziq quality engine\src\app.cpp
+	<GL/glew.h>
+	<iostream>
+	<sstream>
+	<GLFW/glfw3.h>
+	"app.h"
+	"testScene.h"
+	"leaf.h"
+	"pyramid.h"
+	"rectangle.h"
+	<stdlib.h>
+	<time.h>
+
+1397758512 d:\google Диск\opengl\projects\lobziq quality engine\include\rectangle.h
+	<oglObject2d.h>
+
+1397431909 d:\google Диск\opengl\projects\lobziq quality engine\include\texture.h
+	<GL/glew.h>
+	<FreeImage.h>
+	<iostream>
+
+1348427794 d:\google Диск\opengl\tools\freeimage3154win32\freeimage\dist\freeimage.h
+	<wchar.h>
+	<inttypes.h>
+
+1397160130 d:\google Диск\opengl\projects\lobziq quality engine\include\model.h
+	<oglObject3d.h>
+
+1378418281 d:\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\glm.hpp
+	"core/_fixes.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cstdio>
+	"core/setup.hpp"
+	"./core/_detail.hpp"
+	"./core/_vectorize.hpp"
+	"./core/type.hpp"
+	"./core/func_trigonometric.hpp"
+	"./core/func_exponential.hpp"
+	"./core/func_common.hpp"
+	"./core/func_packing.hpp"
+	"./core/func_geometric.hpp"
+	"./core/func_matrix.hpp"
+	"./core/func_vector_relational.hpp"
+	"./core/func_integer.hpp"
+	"./core/func_noise.hpp"
+	"./core/_swizzle.hpp"
+
+1378418287 d:\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\_fixes.hpp
+	<cmath>
+
+1378418284 d:\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\setup.hpp
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<smmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1378418287 d:\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\_detail.hpp
+	"setup.hpp"
+	<cassert>
+	<cstdint>
+
+1378418287 d:\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\_vectorize.hpp
+
+1378418284 d:\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\type.hpp
+	"type_half.hpp"
+	"type_float.hpp"
+	"type_int.hpp"
+	"type_gentype.hpp"
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat2x2.hpp"
+	"type_mat2x3.hpp"
+	"type_mat2x4.hpp"
+	"type_mat3x2.hpp"
+	"type_mat3x3.hpp"
+	"type_mat3x4.hpp"
+	"type_mat4x2.hpp"
+	"type_mat4x3.hpp"
+	"type_mat4x4.hpp"
+
+1378418285 d:\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\type_half.hpp
+	<cstdlib>
+	"type_half.inl"
+
+1378418285 d:\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\type_half.inl
+	"_detail.hpp"
+
+1378418284 d:\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\type_float.hpp
+	"type_half.hpp"
+	"setup.hpp"
+
+1378418285 d:\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\type_int.hpp
+	"setup.hpp"
+	"_detail.hpp"
+
+1378418284 d:\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\type_gentype.hpp
+	"type_size.hpp"
+
+1378418286 d:\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\type_size.hpp
+	<cstdlib>
+
+1378418286 d:\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\type_vec1.hpp
+	"type_vec.hpp"
+	"type_float.hpp"
+	"type_int.hpp"
+	"type_size.hpp"
+	"_swizzle.hpp"
+	"type_vec1.inl"
+
+1378418286 d:\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\type_vec.hpp
+	"type_gentype.hpp"
+
+1378418287 d:\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\_swizzle.hpp
+	"_swizzle_func.hpp"
+
+1378418287 d:\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\_swizzle_func.hpp
+
+1378418286 d:\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\type_vec1.inl
+
+1378418286 d:\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\type_vec2.hpp
+	"type_vec.hpp"
+	"type_float.hpp"
+	"type_int.hpp"
+	"type_size.hpp"
+	"_swizzle.hpp"
+	"type_vec2.inl"
+
+1378418286 d:\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\type_vec2.inl
+
+1378418286 d:\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\type_vec3.hpp
+	"type_vec.hpp"
+	"type_float.hpp"
+	"type_int.hpp"
+	"type_size.hpp"
+	"_swizzle.hpp"
+	"type_vec3.inl"
+
+1378418287 d:\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\type_vec3.inl
+
+1378418287 d:\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\type_vec4.hpp
+	"type_vec.hpp"
+	"type_float.hpp"
+	"type_int.hpp"
+	"type_size.hpp"
+	"_swizzle.hpp"
+	"type_vec4.inl"
+
+1378418287 d:\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\type_vec4.inl
+
+1378418285 d:\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\type_mat2x2.hpp
+	"type_mat.hpp"
+	"type_mat2x2.inl"
+
+1378418285 d:\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\type_mat.hpp
+	"type_gentype.hpp"
+
+1378418285 d:\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\type_mat2x2.inl
+
+1378418285 d:\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\type_mat2x3.hpp
+	"type_mat.hpp"
+	"type_mat2x3.inl"
+
+1378418285 d:\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\type_mat2x3.inl
+
+1378418285 d:\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\type_mat2x4.hpp
+	"type_mat.hpp"
+	"type_mat2x4.inl"
+
+1378418285 d:\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\type_mat2x4.inl
+
+1378418285 d:\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\type_mat3x2.hpp
+	"type_mat.hpp"
+	"type_mat3x2.inl"
+
+1378418285 d:\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\type_mat3x2.inl
+
+1378418285 d:\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\type_mat3x3.hpp
+	"type_mat.hpp"
+	"type_mat3x3.inl"
+
+1378418286 d:\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\type_mat3x3.inl
+
+1378418286 d:\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\type_mat3x4.hpp
+	"type_mat.hpp"
+	"type_mat3x4.inl"
+
+1378418286 d:\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\type_mat3x4.inl
+
+1378418286 d:\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\type_mat4x2.hpp
+	"type_mat.hpp"
+	"type_mat4x2.inl"
+
+1378418286 d:\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\type_mat4x2.inl
+
+1378418286 d:\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\type_mat4x3.hpp
+	"type_mat.hpp"
+	"type_mat4x3.inl"
+
+1378418286 d:\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\type_mat4x3.inl
+
+1378418286 d:\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\type_mat4x4.hpp
+	"type_mat.hpp"
+	"type_mat4x4.inl"
+
+1378418286 d:\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\type_mat4x4.inl
+
+1378418283 d:\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\func_trigonometric.hpp
+	"func_trigonometric.inl"
+
+1378418283 d:\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\func_trigonometric.inl
+
+1378418282 d:\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\func_exponential.hpp
+	"func_exponential.inl"
+
+1378418282 d:\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\func_exponential.inl
+
+1378418281 d:\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\func_common.hpp
+	"_fixes.hpp"
+	"func_common.inl"
+
+1378418281 d:\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\func_common.inl
+
+1378418282 d:\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\func_packing.hpp
+	"func_packing.inl"
+
+1378418282 d:\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\func_packing.inl
+
+1378418282 d:\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\func_geometric.hpp
+	"func_geometric.inl"
+
+1378418282 d:\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\func_geometric.inl
+
+1378418282 d:\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\func_matrix.hpp
+	"func_matrix.inl"
+
+1378418282 d:\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\func_matrix.inl
+
+1378418283 d:\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\func_vector_relational.hpp
+	"_detail.hpp"
+	"func_vector_relational.inl"
+
+1378418283 d:\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\func_vector_relational.inl
+
+1378418282 d:\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\func_integer.hpp
+	"func_integer.inl"
+
+1378418282 d:\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\func_integer.inl
+	<intrin.h>
+
+1378418282 d:\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\func_noise.hpp
+	"func_noise.inl"
+
+1378418282 d:\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\core\func_noise.inl
+
+1378418288 d:\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\gtc\matrix_transform.hpp
+	"../glm.hpp"
+	"matrix_transform.inl"
+
+1378418288 d:\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\gtc\matrix_transform.inl
+
+1397670218 source:d:\google Диск\opengl\projects\lobziq quality engine\src\model.cpp
+	"model.h"
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<assimp/Importer.hpp>
+	<assimp/scene.h>
+	<assimp/postprocess.h>
+
+1378418290 d:\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\gtc\type_ptr.hpp
+	"../glm.hpp"
+	"../gtc/half_float.hpp"
+	"../gtc/quaternion.hpp"
+	<cstring>
+	"type_ptr.inl"
+
+1378418287 d:\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\gtc\half_float.hpp
+	"../glm.hpp"
+	"half_float.inl"
+
+1378418287 d:\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\gtc\half_float.inl
+
+1378418288 d:\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\gtc\quaternion.hpp
+	"../glm.hpp"
+	"../gtc/half_float.hpp"
+	"../gtc/constants.hpp"
+	"quaternion.inl"
+
+1378418287 d:\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\gtc\constants.hpp
+	"../glm.hpp"
+	"../gtc/half_float.hpp"
+	"constants.inl"
+
+1378418287 d:\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\gtc\constants.inl
+
+1378418288 d:\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\gtc\quaternion.inl
+	<limits>
+
+1378418290 d:\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\gtc\type_ptr.inl
+
+1394403049 d:\google Диск\opengl\projects\lobziq quality engine\include\shaderloader.h
+	<GL/glew.h>
+	<iostream>
+
+1397670265 source:d:\google Диск\opengl\projects\lobziq quality engine\src\rectangle.cpp
+	"rectangle.h"
+
+1398099480 source:d:\google Диск\opengl\projects\lobziq quality engine\src\shaderloader.cpp
+	<GL/glew.h>
+	<iostream>
+	<fstream>
+	"shaderLoader.h"
+
+1398356253 source:d:\google Диск\opengl\projects\lobziq quality engine\src\texture.cpp
+	"texture.h"
+	<iostream>
+	<FreeImage.h>
+
+1397003337 c:\users\lobziq\google Диск\opengl\projects\lobziq quality engine\include\camera.h
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+
+1397521659 source:c:\users\lobziq\google Диск\opengl\projects\lobziq quality engine\src\camera.cpp
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<iostream>
+	"camera.h"
+
+1397003337 d:\google Диск\opengl\projects\lobziq quality engine\include\camera.h
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+
+1397521659 source:d:\google Диск\opengl\projects\lobziq quality engine\src\camera.cpp
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<iostream>
+	"camera.h"
+
+1335122562 c:\users\lobziq\google Диск\opengl\tools\assimp--3.0.1270-sdk\include\assimp\importer.hpp
+	"types.h"
+	"config.h"
+
+1328274248 c:\users\lobziq\google Диск\opengl\tools\assimp--3.0.1270-sdk\include\assimp\types.h
+	<sys/types.h>
+	<memory.h>
+	<math.h>
+	<stddef.h>
+	"defs.h"
+	"vector3.h"
+	"vector2.h"
+	"color4.h"
+	"matrix3x3.h"
+	"matrix4x4.h"
+	"quaternion.h"
+	<new>
+	<string>
+	"./Compiler/pushpack1.h"
+	"./Compiler/poppack1.h"
+	"vector2.inl"
+	"vector3.inl"
+	"color4.inl"
+	"quaternion.inl"
+	"matrix3x3.inl"
+	"matrix4x4.inl"
+
+1328274248 c:\users\lobziq\google Диск\opengl\tools\assimp--3.0.1270-sdk\include\assimp\defs.h
+
+1328274248 c:\users\lobziq\google Диск\opengl\tools\assimp--3.0.1270-sdk\include\assimp\vector3.h
+	<math.h>
+	"./Compiler/pushpack1.h"
+	"./Compiler/poppack1.h"
+
+1231595888 c:\users\lobziq\google Диск\opengl\tools\assimp--3.0.1270-sdk\include\assimp\compiler\pushpack1.h
+
+1231595888 c:\users\lobziq\google Диск\opengl\tools\assimp--3.0.1270-sdk\include\assimp\compiler\poppack1.h
+
+1328274248 c:\users\lobziq\google Диск\opengl\tools\assimp--3.0.1270-sdk\include\assimp\vector2.h
+	<math.h>
+	"./Compiler/pushpack1.h"
+	"./Compiler/poppack1.h"
+
+1329548040 c:\users\lobziq\google Диск\opengl\tools\assimp--3.0.1270-sdk\include\assimp\color4.h
+	"./Compiler/pushpack1.h"
+	"./Compiler/poppack1.h"
+
+1328274248 c:\users\lobziq\google Диск\opengl\tools\assimp--3.0.1270-sdk\include\assimp\matrix3x3.h
+	"./Compiler/pushpack1.h"
+	"./Compiler/poppack1.h"
+
+1328274248 c:\users\lobziq\google Диск\opengl\tools\assimp--3.0.1270-sdk\include\assimp\matrix4x4.h
+	"./Compiler/pushpack1.h"
+	"./Compiler/poppack1.h"
+
+1328274248 c:\users\lobziq\google Диск\opengl\tools\assimp--3.0.1270-sdk\include\assimp\quaternion.h
+
+1328274248 c:\users\lobziq\google Диск\opengl\tools\assimp--3.0.1270-sdk\include\assimp\vector2.inl
+	"vector2.h"
+
+1328274248 c:\users\lobziq\google Диск\opengl\tools\assimp--3.0.1270-sdk\include\assimp\vector3.inl
+	"vector3.h"
+
+1328274248 c:\users\lobziq\google Диск\opengl\tools\assimp--3.0.1270-sdk\include\assimp\color4.inl
+	"color4.h"
+
+1328274248 c:\users\lobziq\google Диск\opengl\tools\assimp--3.0.1270-sdk\include\assimp\quaternion.inl
+	"quaternion.h"
+
+1328274248 c:\users\lobziq\google Диск\opengl\tools\assimp--3.0.1270-sdk\include\assimp\matrix3x3.inl
+	"matrix3x3.h"
+	"matrix4x4.h"
+	<algorithm>
+	<limits>
+
+1328274248 c:\users\lobziq\google Диск\opengl\tools\assimp--3.0.1270-sdk\include\assimp\matrix4x4.inl
+	"matrix4x4.h"
+	"matrix3x3.h"
+	"quaternion.h"
+	<algorithm>
+	<limits>
+	<math.h>
+
+1338732094 c:\users\lobziq\google Диск\opengl\tools\assimp--3.0.1270-sdk\include\assimp\config.h
+
+1328274248 c:\users\lobziq\google Диск\opengl\tools\assimp--3.0.1270-sdk\include\assimp\scene.h
+	"types.h"
+	"texture.h"
+	"mesh.h"
+	"light.h"
+	"camera.h"
+	"material.h"
+	"anim.h"
+
+1328274248 c:\users\lobziq\google Диск\opengl\tools\assimp--3.0.1270-sdk\include\assimp\texture.h
+	"types.h"
+	"./Compiler/pushpack1.h"
+	"./Compiler/poppack1.h"
+
+1328274248 c:\users\lobziq\google Диск\opengl\tools\assimp--3.0.1270-sdk\include\assimp\mesh.h
+	"types.h"
+
+1328274248 c:\users\lobziq\google Диск\opengl\tools\assimp--3.0.1270-sdk\include\assimp\light.h
+	"types.h"
+
+1328274248 c:\users\lobziq\google Диск\opengl\tools\assimp--3.0.1270-sdk\include\assimp\camera.h
+	"types.h"
+
+1328274248 c:\users\lobziq\google Диск\opengl\tools\assimp--3.0.1270-sdk\include\assimp\material.h
+	"types.h"
+	"./Compiler/pushpack1.h"
+	"./Compiler/poppack1.h"
+	"material.inl"
+
+1328274248 c:\users\lobziq\google Диск\opengl\tools\assimp--3.0.1270-sdk\include\assimp\material.inl
+
+1328274248 c:\users\lobziq\google Диск\opengl\tools\assimp--3.0.1270-sdk\include\assimp\anim.h
+	"types.h"
+	"quaternion.h"
+
+1335121346 c:\users\lobziq\google Диск\opengl\tools\assimp--3.0.1270-sdk\include\assimp\postprocess.h
+	"types.h"
+
+1335122562 d:\google Диск\opengl\tools\assimp--3.0.1270-sdk\include\assimp\importer.hpp
+	"types.h"
+	"config.h"
+
+1328274248 d:\google Диск\opengl\tools\assimp--3.0.1270-sdk\include\assimp\types.h
+	<sys/types.h>
+	<memory.h>
+	<math.h>
+	<stddef.h>
+	"defs.h"
+	"vector3.h"
+	"vector2.h"
+	"color4.h"
+	"matrix3x3.h"
+	"matrix4x4.h"
+	"quaternion.h"
+	<new>
+	<string>
+	"./Compiler/pushpack1.h"
+	"./Compiler/poppack1.h"
+	"vector2.inl"
+	"vector3.inl"
+	"color4.inl"
+	"quaternion.inl"
+	"matrix3x3.inl"
+	"matrix4x4.inl"
+
+1328274248 d:\google Диск\opengl\tools\assimp--3.0.1270-sdk\include\assimp\defs.h
+
+1328274248 d:\google Диск\opengl\tools\assimp--3.0.1270-sdk\include\assimp\vector3.h
+	<math.h>
+	"./Compiler/pushpack1.h"
+	"./Compiler/poppack1.h"
+
+1231595888 d:\google Диск\opengl\tools\assimp--3.0.1270-sdk\include\assimp\compiler\pushpack1.h
+
+1231595888 d:\google Диск\opengl\tools\assimp--3.0.1270-sdk\include\assimp\compiler\poppack1.h
+
+1328274248 d:\google Диск\opengl\tools\assimp--3.0.1270-sdk\include\assimp\vector2.h
+	<math.h>
+	"./Compiler/pushpack1.h"
+	"./Compiler/poppack1.h"
+
+1329548040 d:\google Диск\opengl\tools\assimp--3.0.1270-sdk\include\assimp\color4.h
+	"./Compiler/pushpack1.h"
+	"./Compiler/poppack1.h"
+
+1328274248 d:\google Диск\opengl\tools\assimp--3.0.1270-sdk\include\assimp\matrix3x3.h
+	"./Compiler/pushpack1.h"
+	"./Compiler/poppack1.h"
+
+1328274248 d:\google Диск\opengl\tools\assimp--3.0.1270-sdk\include\assimp\matrix4x4.h
+	"./Compiler/pushpack1.h"
+	"./Compiler/poppack1.h"
+
+1328274248 d:\google Диск\opengl\tools\assimp--3.0.1270-sdk\include\assimp\quaternion.h
+
+1328274248 d:\google Диск\opengl\tools\assimp--3.0.1270-sdk\include\assimp\vector2.inl
+	"vector2.h"
+
+1328274248 d:\google Диск\opengl\tools\assimp--3.0.1270-sdk\include\assimp\vector3.inl
+	"vector3.h"
+
+1328274248 d:\google Диск\opengl\tools\assimp--3.0.1270-sdk\include\assimp\color4.inl
+	"color4.h"
+
+1328274248 d:\google Диск\opengl\tools\assimp--3.0.1270-sdk\include\assimp\quaternion.inl
+	"quaternion.h"
+
+1328274248 d:\google Диск\opengl\tools\assimp--3.0.1270-sdk\include\assimp\matrix3x3.inl
+	"matrix3x3.h"
+	"matrix4x4.h"
+	<algorithm>
+	<limits>
+
+1328274248 d:\google Диск\opengl\tools\assimp--3.0.1270-sdk\include\assimp\matrix4x4.inl
+	"matrix4x4.h"
+	"matrix3x3.h"
+	"quaternion.h"
+	<algorithm>
+	<limits>
+	<math.h>
+
+1338732094 d:\google Диск\opengl\tools\assimp--3.0.1270-sdk\include\assimp\config.h
+
+1328274248 d:\google Диск\opengl\tools\assimp--3.0.1270-sdk\include\assimp\scene.h
+	"types.h"
+	"texture.h"
+	"mesh.h"
+	"light.h"
+	"camera.h"
+	"material.h"
+	"anim.h"
+
+1328274248 d:\google Диск\opengl\tools\assimp--3.0.1270-sdk\include\assimp\texture.h
+	"types.h"
+	"./Compiler/pushpack1.h"
+	"./Compiler/poppack1.h"
+
+1328274248 d:\google Диск\opengl\tools\assimp--3.0.1270-sdk\include\assimp\mesh.h
+	"types.h"
+
+1328274248 d:\google Диск\opengl\tools\assimp--3.0.1270-sdk\include\assimp\light.h
+	"types.h"
+
+1328274248 d:\google Диск\opengl\tools\assimp--3.0.1270-sdk\include\assimp\camera.h
+	"types.h"
+
+1328274248 d:\google Диск\opengl\tools\assimp--3.0.1270-sdk\include\assimp\material.h
+	"types.h"
+	"./Compiler/pushpack1.h"
+	"./Compiler/poppack1.h"
+	"material.inl"
+
+1328274248 d:\google Диск\opengl\tools\assimp--3.0.1270-sdk\include\assimp\material.inl
+
+1328274248 d:\google Диск\opengl\tools\assimp--3.0.1270-sdk\include\assimp\anim.h
+	"types.h"
+	"quaternion.h"
+
+1335121346 d:\google Диск\opengl\tools\assimp--3.0.1270-sdk\include\assimp\postprocess.h
+	"types.h"
+
+1398373090 source:c:\users\lobziq\google Диск\opengl\projects\lobziq quality engine\src\oglobject.cpp
+	"oglObject.h"
+
+1398355610 c:\users\lobziq\google Диск\opengl\projects\lobziq quality engine\include\oglobject.h
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<vector>
+	<iostream>
+	"texture.h"
+	"text.h"
+
+1396832087 source:c:\users\lobziq\google Диск\opengl\projects\lobziq quality engine\src\rectangle2d.cpp
+	"rectangle2d.h"
+	"shaderLoader.h"
+
+1396823892 c:\users\lobziq\google Диск\opengl\projects\lobziq quality engine\include\rectangle2d.h
+	"oglObject.h"
+
+1398355610 d:\google Диск\opengl\projects\lobziq quality engine\include\oglobject.h
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<vector>
+	<iostream>
+	"texture.h"
+	"text.h"
+
+1398373090 source:d:\google Диск\opengl\projects\lobziq quality engine\src\oglobject.cpp
+	"oglObject.h"
+
+1396981002 source:d:\google Диск\opengl\projects\lobziq quality engine\src\rectangle2d.cpp
+	"rectangle2d.h"
+	"shaderLoader.h"
+
+1396980544 d:\google Диск\opengl\projects\lobziq quality engine\include\rectangle2d.h
+	"oglObject.h"
+
+1397767033 source:d:\google Диск\opengl\projects\lobziq quality engine\src\scene.cpp
+	"scene.h"
+	<GLFW/glfw3.h>
+	<vector>
+
+1397159646 d:\google Диск\opengl\projects\lobziq quality engine\include\scene.h
+	<vector>
+	"oglObject2d.h"
+	"oglObject3d.h"
+	"camera.h"
+	"app.h"
+
+1397690085 source:d:\google Диск\opengl\projects\lobziq quality engine\src\oglobject2d.cpp
+	"oglObject2d.h"
+	"shaderLoader.h"
+
+1397666799 d:\google Диск\opengl\projects\lobziq quality engine\include\oglobject2d.h
+	<GL/glew.h>
+	<oglObject.h>
+	<GLFW/glfw3.h>
+
+1397690082 source:d:\google Диск\opengl\projects\lobziq quality engine\src\oglobject3d.cpp
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+	"oglObject3d.h"
+	"shaderLoader.h"
+	"camera.h"
+
+1397666794 d:\google Диск\opengl\projects\lobziq quality engine\include\oglobject3d.h
+	<oglObject.h>
+	"camera.h"
+
+1398288819 source:d:\google Диск\opengl\projects\lobziq quality engine\src\testscene.cpp
+	"testScene.h"
+	"model.h"
+	"rectangle.h"
+	"plane.h"
+	"particle.h"
+	"particleDrawer.h"
+	<stdlib.h>
+	<time.h>
+	<math.h>
+
+1397756930 d:\google Диск\opengl\projects\lobziq quality engine\include\testscene.h
+	<scene.h>
+	<model.h>
+	<particleDrawer.h>
+
+1398713225 c:\users\lobziq\google Диск\opengl\projects\lobziq quality engine\include\scene.h
+	<vector>
+	"oglObject2d.h"
+	"oglObject3d.h"
+	"camera.h"
+	"app.h"
+
+1397666799 c:\users\lobziq\google Диск\opengl\projects\lobziq quality engine\include\oglobject2d.h
+	<GL/glew.h>
+	<oglObject.h>
+	<GLFW/glfw3.h>
+
+1397666794 c:\users\lobziq\google Диск\opengl\projects\lobziq quality engine\include\oglobject3d.h
+	<oglObject.h>
+	"camera.h"
+
+1397756930 c:\users\lobziq\google Диск\opengl\projects\lobziq quality engine\include\testscene.h
+	<scene.h>
+	<model.h>
+	<particleDrawer.h>
+
+1397690085 source:c:\users\lobziq\google Диск\opengl\projects\lobziq quality engine\src\oglobject2d.cpp
+	"oglObject2d.h"
+	"shaderLoader.h"
+
+1398714062 source:c:\users\lobziq\google Диск\opengl\projects\lobziq quality engine\src\testscene.cpp
+	"testScene.h"
+	"model.h"
+	"rectangle.h"
+	"plane.h"
+	"particleDrawer.h"
+	<stdlib.h>
+	<time.h>
+	<math.h>
+
+1397690082 source:c:\users\lobziq\google Диск\opengl\projects\lobziq quality engine\src\oglobject3d.cpp
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+	"oglObject3d.h"
+	"shaderLoader.h"
+	"camera.h"
+
+1398713296 source:c:\users\lobziq\google Диск\opengl\projects\lobziq quality engine\src\scene.cpp
+	"scene.h"
+	<GLFW/glfw3.h>
+	<vector>
+
+1397670276 source:c:\users\lobziq\google Диск\opengl\projects\lobziq quality engine\src\plane.cpp
+	"plane.h"
+
+1397758505 c:\users\lobziq\google Диск\opengl\projects\lobziq quality engine\include\plane.h
+	<oglObject3d.h>
+
+1397569418 source:c:\users\lobziq\google Диск\opengl\projects\lobziq quality engine\src\particle.cpp
+	"particle.h"
+
+1397568691 c:\users\lobziq\google Диск\opengl\projects\lobziq quality engine\include\particle.h
+
+1398704798 source:c:\users\lobziq\google Диск\opengl\projects\lobziq quality engine\src\particledrawer.cpp
+	"particleDrawer.h"
+	"shaderLoader.h"
+	"particle.h"
+	<vector>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1398288804 c:\users\lobziq\google Диск\opengl\projects\lobziq quality engine\include\particledrawer.h
+	"oglObject2d.h"
+	<vector>
+	"particle.h"
+
+1398288804 d:\google Диск\opengl\projects\lobziq quality engine\include\particledrawer.h
+	"oglObject2d.h"
+	<vector>
+	"particle.h"
+
+1397568691 d:\google Диск\opengl\projects\lobziq quality engine\include\particle.h
+
+1397569418 source:d:\google Диск\opengl\projects\lobziq quality engine\src\particle.cpp
+	"particle.h"
+
+1397670276 source:d:\google Диск\opengl\projects\lobziq quality engine\src\plane.cpp
+	"plane.h"
+
+1397758505 d:\google Диск\opengl\projects\lobziq quality engine\include\plane.h
+	<oglObject3d.h>
+
+1398339336 source:d:\google Диск\opengl\projects\lobziq quality engine\src\particledrawer.cpp
+	"particleDrawer.h"
+	"shaderLoader.h"
+	"particle.h"
+	<vector>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1397908860 source:d:\google Диск\opengl\projects\lobziq quality engine\src\leaf.cpp
+	"leaf.h"
+
+1397908910 d:\google Диск\opengl\projects\lobziq quality engine\include\leaf.h
+
+1397908799 source:d:\google Диск\opengl\projects\lobziq quality engine\src\pyramid.cpp
+	"pyramid.h"
+
+1397961607 d:\google Диск\opengl\projects\lobziq quality engine\include\pyramid.h
+	"leaf.h"
+
+1397893775 source:d:\google Диск\opengl\projects\lobziq quality engine\src\tree.cpp
+	"tree.h"
+
+1397893710 d:\google Диск\opengl\projects\lobziq quality engine\include\tree.h
+	"leaf.h"
+	<iostream>
+
+1398374311 source:d:\google Диск\opengl\projects\lobziq quality engine\src\text.cpp
+	"text.h"
+	<iostream>
+	<ft2build.h>
+
+1398373050 d:\google Диск\opengl\projects\lobziq quality engine\include\text.h
+	<GL/glew.h>
+	<iostream>
+
+1384314396 d:\google Диск\opengl\tools\ft253\freetype-2.5.3\include\ft2build.h
+	<config/ftheader.h>
+
+1384237660 d:\google Диск\opengl\tools\ft253\freetype-2.5.3\include\config\ftheader.h
+
+1398713878 c:\users\lobziq\google Диск\opengl\projects\lobziq quality engine\include\text.h
+	<GL/glew.h>
+	<iostream>
+
+1397908910 c:\users\lobziq\google Диск\opengl\projects\lobziq quality engine\include\leaf.h
+
+1397961607 c:\users\lobziq\google Диск\opengl\projects\lobziq quality engine\include\pyramid.h
+	"leaf.h"
+
+1397908860 source:c:\users\lobziq\google Диск\opengl\projects\lobziq quality engine\src\leaf.cpp
+	"leaf.h"
+
+1397908799 source:c:\users\lobziq\google Диск\opengl\projects\lobziq quality engine\src\pyramid.cpp
+	"pyramid.h"
+
+1397893775 source:c:\users\lobziq\google Диск\opengl\projects\lobziq quality engine\src\tree.cpp
+	"tree.h"
+
+1397893710 c:\users\lobziq\google Диск\opengl\projects\lobziq quality engine\include\tree.h
+	"leaf.h"
+	<iostream>
+
+1398700685 source:c:\users\lobziq\google Диск\opengl\projects\lobziq quality engine\src\particle2d.cpp
+	"particle2d.h"
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+
+1398700655 c:\users\lobziq\google Диск\opengl\projects\lobziq quality engine\include\particle2d.h
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<iostream>
+
+1398711881 source:c:\users\lobziq\google Диск\opengl\projects\lobziq quality engine\src\text.cpp
+	"text.h"
+	<iostream>
+	<algorithm>
+	<ft2build.h>
+
+1384314396 c:\users\lobziq\google Диск\opengl\tools\ft253\freetype-2.5.3\include\ft2build.h
+	<config/ftheader.h>
+
+1384237660 c:\users\lobziq\google Диск\opengl\tools\ft253\freetype-2.5.3\include\config\ftheader.h
+
+1398702215 source:c:\users\lobziq\google Диск\opengl\projects\lobziq quality engine\src\particlemanager.cpp
+	"particleManager.h"
+	<random>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1398702218 c:\users\lobziq\google Диск\opengl\projects\lobziq quality engine\include\particlemanager.h
+	"particle2d.h"
+	<GLFW/glfw3.h>
+	<iostream>
+	<vector>
+
+1398715087 c:\users\lobziq\google Диск\opengl\projects\lobziq quality engine\include\testscene2.h
+	<scene.h>
+
+1398715459 source:c:\users\lobziq\google Диск\opengl\projects\lobziq quality engine\src\testscene2.cpp
+	"testScene2.h"
+	<stdlib.h>
+	<time.h>
+	"particleDrawer.h"
+
