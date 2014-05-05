@@ -19,6 +19,8 @@ class rectangle : public oglObject2d
         float getWidth();
         float getHeight();
 
+        void draw();
+
     protected:
     private:
         float windowX1, windowX2, windowY1, windowY2, x1, x2, y1, y2;

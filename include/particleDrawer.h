@@ -3,7 +3,6 @@
 
 #include "oglObject2d.h"
 #include <vector>
-#include "particle.h"
 
 class particleDrawer: public oglObject2d
 {

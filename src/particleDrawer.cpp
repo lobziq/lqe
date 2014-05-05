@@ -1,6 +1,5 @@
 #include "particleDrawer.h"
 #include "shaderLoader.h"
-#include "particle.h"
 #include <vector>
 
 #include <stdio.h>

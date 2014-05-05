@@ -58,22 +58,19 @@
 		</Linker>
 		<Unit filename="include/app.h" />
 		<Unit filename="include/camera.h" />
-		<Unit filename="include/leaf.h" />
 		<Unit filename="include/model.h" />
 		<Unit filename="include/oglObject.h" />
 		<Unit filename="include/oglObject2d.h" />
 		<Unit filename="include/oglObject3d.h" />
-		<Unit filename="include/particle.h" />
 		<Unit filename="include/particleDrawer.h" />
 		<Unit filename="include/plane.h" />
-		<Unit filename="include/pyramid.h" />
 		<Unit filename="include/rectangle.h" />
 		<Unit filename="include/scene.h" />
 		<Unit filename="include/shaderLoader.h" />
 		<Unit filename="include/testScene.h" />
+		<Unit filename="include/testScene2.h" />
 		<Unit filename="include/text.h" />
 		<Unit filename="include/texture.h" />
-		<Unit filename="include/tree.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="shaders/object2d.frag" />
 		<Unit filename="shaders/object2d.vert" />
@@ -83,22 +80,19 @@
 		<Unit filename="shaders/particle2d.vert" />
 		<Unit filename="src/app.cpp" />
 		<Unit filename="src/camera.cpp" />
-		<Unit filename="src/leaf.cpp" />
 		<Unit filename="src/model.cpp" />
 		<Unit filename="src/oglObject.cpp" />
 		<Unit filename="src/oglObject2d.cpp" />
 		<Unit filename="src/oglObject3d.cpp" />
-		<Unit filename="src/particle.cpp" />
 		<Unit filename="src/particleDrawer.cpp" />
 		<Unit filename="src/plane.cpp" />
-		<Unit filename="src/pyramid.cpp" />
 		<Unit filename="src/rectangle.cpp" />
 		<Unit filename="src/scene.cpp" />
 		<Unit filename="src/shaderLoader.cpp" />
 		<Unit filename="src/testScene.cpp" />
+		<Unit filename="src/testScene2.cpp" />
 		<Unit filename="src/text.cpp" />
 		<Unit filename="src/texture.cpp" />
-		<Unit filename="src/tree.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />

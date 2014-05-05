@@ -8,9 +8,15 @@
 #include <assimp/scene.h>
 #include <assimp/postprocess.h>
 
+#include "shaderLoader.h"
+
 model::model(GLFWwindow *window, camera *sceneCamera): oglObject3d(window, sceneCamera)
 {
-    loadShaderProgram();
+    shaderLoader shaders("shaders/object3d.vert", "shaders/object3d.frag", &shaderProgram);
+
+    uniTexture = glGetUniformLocation(shaderProgram, "tex");
+    uniColor = glGetUniformLocation(shaderProgram, "color");
+    uniMVP = glGetUniformLocation(shaderProgram, "MVP");
 }
 
 void model::load(std::string fileName)

@@ -1,8 +1,10 @@
 #include "rectangle.h"
+#include "shaderLoader.h"
 
 rectangle::rectangle(int x, int y, int width, int height, GLFWwindow* window): oglObject2d(window)
 {
-    loadShaderProgram();
+    shaderLoader shaders("shaders/object2d.vert", "shaders/object2d.frag", &shaderProgram);
+
     uniTexture = glGetUniformLocation(shaderProgram, "tex");
     uniColor = glGetUniformLocation(shaderProgram, "color");
 
@@ -51,6 +53,33 @@ void rectangle::setRectangle(float x, float y, float width, float height)
     glBindBuffer(GL_ARRAY_BUFFER, textureBuffer);
     glBufferData(GL_ARRAY_BUFFER, uvs.size()*sizeof(GLfloat), &uvs[0], GL_STATIC_DRAW);
 }
+
+void rectangle::draw()
+{
+    glUseProgram(shaderProgram);
+
+    glActiveTexture(GL_TEXTURE0);
+    glBindTexture(GL_TEXTURE_2D, tex);
+    glUniform1i(uniTexture, 0);
+
+    setColor(r,g,b);
+
+    posAttribute = glGetAttribLocation(shaderProgram, "position");
+    glEnableVertexAttribArray(posAttribute);
+    glBindBuffer(GL_ARRAY_BUFFER, vertexBuffer);
+    glVertexAttribPointer(posAttribute, 2, GL_FLOAT, GL_FALSE, 2 * sizeof(GLfloat), 0);
+
+    texAttribute = glGetAttribLocation(shaderProgram, "uvPosition");
+    glEnableVertexAttribArray(texAttribute);
+    glBindBuffer(GL_ARRAY_BUFFER, textureBuffer);
+    glVertexAttribPointer(texAttribute, 2, GL_FLOAT, GL_FALSE, 2 * sizeof(GLfloat), 0);
+
+    glDrawArrays(GL_TRIANGLES, 0, vertices.size()/2);
+
+    glDisableVertexAttribArray(texAttribute);
+    glDisableVertexAttribArray(posAttribute);
+}
+
 
 bool rectangle::mouseOver()
 {

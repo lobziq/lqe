@@ -11,15 +11,15 @@ class oglObject3d : public oglObject
     public:
         oglObject3d(GLFWwindow *window, camera *sceneCamera);
 
+        virtual void load(std::string fileName);
+
         void setPosition(float x, float y, float z);
-        void setPosition(glm::vec3 position);
 
         glm::vec3 getPosition();
 
         void draw();
 
     protected:
-        void loadShaderProgram();
 
         void useCamera();
 

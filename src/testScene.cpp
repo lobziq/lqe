@@ -19,7 +19,7 @@ testScene::testScene(GLFWwindow* window): scene(window)
     //backgroundR = 0.5;
     //backgroundG = 0.5;
     //backgroundB = 0.5;
-
+    /*
     interface.push_back(new rectangle(w/2+5, h/2-100, 200, 40, window));
     interface.back()->setText("tahoma.ttf", "SUCH");
     interface.push_back(new rectangle(w/2+5, h/2-50, 200, 40, window));
@@ -31,7 +31,7 @@ testScene::testScene(GLFWwindow* window): scene(window)
 
     particleDrawer pDrawer(window);
     //pDrawer.fillBufferWithParticles(someParticles);
-    //add2d(pDrawer);
+    //add2d(pDrawer);*/
 
     //std::cout << "the amount of 2d objecs scene contain is " << interface.size() << std::endl;
 }

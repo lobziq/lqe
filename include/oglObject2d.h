@@ -13,8 +13,6 @@ class oglObject2d : public oglObject
 
         void setPosition(int x, int y);
     protected:
-
-        void loadShaderProgram();
     private:
 };
 

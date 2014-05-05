@@ -10,8 +10,6 @@
 #include "testScene.h"
 #include "testScene2.h"
 
-#include "leaf.h"
-#include "pyramid.h"
 #include "rectangle.h"
 
 

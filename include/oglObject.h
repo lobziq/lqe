@@ -19,7 +19,6 @@ class oglObject
         oglObject(GLFWwindow *window);
 
         void setTexture(std::string fileName, bool flipped = false);
-        void setText(std::string fontName, std::string text);
         void setTextureWrap(int type);
         void setColor(float red, float green, float blue);
 
@@ -30,7 +29,6 @@ class oglObject
 
         virtual ~oglObject();
     protected:
-        virtual void loadShaderProgram();
         void useTextures();
         void useAttributes(int dimensions);
 

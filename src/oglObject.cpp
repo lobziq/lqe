@@ -7,23 +7,11 @@ oglObject::oglObject(GLFWwindow *window)
     glGenBuffers(1, &textureBuffer);
 }
 
-void oglObject::loadShaderProgram()
-{
-    std::cout << "debugshaderprogram" << std::endl;
-}
-
 void oglObject::setTexture(std::string fileName, bool flipped)
 {
     //glBindTexture(GL_TEXTURE_2D, tex);
     tex = image.load(fileName, !flipped);
 }
-
-void oglObject::setText(std::string fontName, std::string text)
-{
-    textimage.load(fontName, text);
-    tex = textimage.getTexture();
-}
-
 
 void oglObject::setTextureWrap(int type)
 {

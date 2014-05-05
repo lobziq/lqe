@@ -1,14 +1,23 @@
 #include "plane.h"
+#include "shaderLoader.h"
 
 plane::plane(int pSize, int resolution, GLFWwindow *window, camera *sceneCamera): oglObject3d(window, sceneCamera)
 {
-    loadShaderProgram();
+    shaderLoader shaders("shaders/object3d.vert", "shaders/object3d.frag", &shaderProgram);
+
+    uniTexture = glGetUniformLocation(shaderProgram, "tex");
+    uniColor = glGetUniformLocation(shaderProgram, "color");
+    uniMVP = glGetUniformLocation(shaderProgram, "MVP");
     create(pSize, pSize, resolution, resolution);
 }
 
 plane::plane(int width, int height, int resolutionX, int resolutionY, GLFWwindow *window, camera *sceneCamera): oglObject3d(window, sceneCamera)
 {
-    loadShaderProgram();
+    shaderLoader shaders("shaders/object3d.vert", "shaders/object3d.frag", &shaderProgram);
+
+    uniTexture = glGetUniformLocation(shaderProgram, "tex");
+    uniColor = glGetUniformLocation(shaderProgram, "color");
+    uniMVP = glGetUniformLocation(shaderProgram, "MVP");
     create(width, height, resolutionX, resolutionY);
 }
 

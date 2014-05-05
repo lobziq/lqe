@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1398715736 source:c:\users\lobziq\google Диск\opengl\projects\lobziq quality engine\src\app.cpp
+1399241829 source:c:\users\lobziq\google Диск\opengl\projects\lobziq quality engine\src\app.cpp
 	<GL/glew.h>
 	<iostream>
 	<sstream>
@@ -7,8 +7,6 @@
 	"app.h"
 	"testScene.h"
 	"testScene2.h"
-	"leaf.h"
-	"pyramid.h"
 	"rectangle.h"
 
 1374462800 c:\users\lobziq\google Диск\opengl\tools\glew-1.10.0-win32\glew-1.10.0\include\gl\glew.h
@@ -51,13 +49,14 @@
 	<GL/glew.h>
 	<iostream>
 
-1397670265 source:c:\users\lobziq\google Диск\opengl\projects\lobziq quality engine\src\rectangle.cpp
+1399244609 source:c:\users\lobziq\google Диск\opengl\projects\lobziq quality engine\src\rectangle.cpp
 	"rectangle.h"
+	"shaderLoader.h"
 
-1397758512 c:\users\lobziq\google Диск\opengl\projects\lobziq quality engine\include\rectangle.h
+1399245119 c:\users\lobziq\google Диск\opengl\projects\lobziq quality engine\include\rectangle.h
 	<oglObject2d.h>
 
-1397670218 source:c:\users\lobziq\google Диск\opengl\projects\lobziq quality engine\src\model.cpp
+1399242645 source:c:\users\lobziq\google Диск\opengl\projects\lobziq quality engine\src\model.cpp
 	"model.h"
 	<glm/glm.hpp>
 	<glm/gtc/matrix_transform.hpp>
@@ -65,6 +64,7 @@
 	<assimp/Importer.hpp>
 	<assimp/scene.h>
 	<assimp/postprocess.h>
+	"shaderLoader.h"
 
 1378418281 c:\users\lobziq\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\glm.hpp
 	"core/_fixes.hpp"
@@ -305,7 +305,7 @@
 
 1378418288 c:\users\lobziq\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\gtc\matrix_transform.inl
 
-1397160130 c:\users\lobziq\google Диск\opengl\projects\lobziq quality engine\include\model.h
+1399244926 c:\users\lobziq\google Диск\opengl\projects\lobziq quality engine\include\model.h
 	<oglObject3d.h>
 
 1378418290 c:\users\lobziq\google Диск\opengl\tools\glm-0.9.4.5\glm\glm\gtc\type_ptr.hpp
@@ -978,10 +978,10 @@
 1335121346 d:\google Диск\opengl\tools\assimp--3.0.1270-sdk\include\assimp\postprocess.h
 	"types.h"
 
-1398373090 source:c:\users\lobziq\google Диск\opengl\projects\lobziq quality engine\src\oglobject.cpp
+1399241633 source:c:\users\lobziq\google Диск\opengl\projects\lobziq quality engine\src\oglobject.cpp
 	"oglObject.h"
 
-1398355610 c:\users\lobziq\google Диск\opengl\projects\lobziq quality engine\include\oglobject.h
+1399241640 c:\users\lobziq\google Диск\opengl\projects\lobziq quality engine\include\oglobject.h
 	<GL/glew.h>
 	<GLFW/glfw3.h>
 	<glm/glm.hpp>
@@ -1074,12 +1074,12 @@
 	"camera.h"
 	"app.h"
 
-1397666799 c:\users\lobziq\google Диск\opengl\projects\lobziq quality engine\include\oglobject2d.h
+1399241594 c:\users\lobziq\google Диск\opengl\projects\lobziq quality engine\include\oglobject2d.h
 	<GL/glew.h>
 	<oglObject.h>
 	<GLFW/glfw3.h>
 
-1397666794 c:\users\lobziq\google Диск\opengl\projects\lobziq quality engine\include\oglobject3d.h
+1399241607 c:\users\lobziq\google Диск\opengl\projects\lobziq quality engine\include\oglobject3d.h
 	<oglObject.h>
 	"camera.h"
 
@@ -1088,11 +1088,11 @@
 	<model.h>
 	<particleDrawer.h>
 
-1397690085 source:c:\users\lobziq\google Диск\opengl\projects\lobziq quality engine\src\oglobject2d.cpp
+1399241735 source:c:\users\lobziq\google Диск\opengl\projects\lobziq quality engine\src\oglobject2d.cpp
 	"oglObject2d.h"
 	"shaderLoader.h"
 
-1398714062 source:c:\users\lobziq\google Диск\opengl\projects\lobziq quality engine\src\testscene.cpp
+1399244149 source:c:\users\lobziq\google Диск\opengl\projects\lobziq quality engine\src\testscene.cpp
 	"testScene.h"
 	"model.h"
 	"rectangle.h"
@@ -1102,7 +1102,7 @@
 	<time.h>
 	<math.h>
 
-1397690082 source:c:\users\lobziq\google Диск\opengl\projects\lobziq quality engine\src\oglobject3d.cpp
+1399243364 source:c:\users\lobziq\google Диск\opengl\projects\lobziq quality engine\src\oglobject3d.cpp
 	<glm/glm.hpp>
 	<glm/gtc/matrix_transform.hpp>
 	<glm/gtc/type_ptr.hpp>
@@ -1115,8 +1115,9 @@
 	<GLFW/glfw3.h>
 	<vector>
 
-1397670276 source:c:\users\lobziq\google Диск\opengl\projects\lobziq quality engine\src\plane.cpp
+1399242703 source:c:\users\lobziq\google Диск\opengl\projects\lobziq quality engine\src\plane.cpp
 	"plane.h"
+	"shaderLoader.h"
 
 1397758505 c:\users\lobziq\google Диск\opengl\projects\lobziq quality engine\include\plane.h
 	<oglObject3d.h>
@@ -1126,19 +1127,17 @@
 
 1397568691 c:\users\lobziq\google Диск\opengl\projects\lobziq quality engine\include\particle.h
 
-1398704798 source:c:\users\lobziq\google Диск\opengl\projects\lobziq quality engine\src\particledrawer.cpp
+1399242669 source:c:\users\lobziq\google Диск\opengl\projects\lobziq quality engine\src\particledrawer.cpp
 	"particleDrawer.h"
 	"shaderLoader.h"
-	"particle.h"
 	<vector>
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 
-1398288804 c:\users\lobziq\google Диск\opengl\projects\lobziq quality engine\include\particledrawer.h
+1399241803 c:\users\lobziq\google Диск\opengl\projects\lobziq quality engine\include\particledrawer.h
 	"oglObject2d.h"
 	<vector>
-	"particle.h"
 
 1398288804 d:\google Диск\opengl\projects\lobziq quality engine\include\particledrawer.h
 	"oglObject2d.h"
